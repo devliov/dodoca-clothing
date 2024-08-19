@@ -62,7 +62,7 @@ const Header = () => {
             }}
           >
             <a
-              href="https://devliov.github.io/sonoliffe/"
+              href="https://devliov.github.io/dodoca-clothing/"
               target="_self"
               style={{
                 textDecoration: "none",
