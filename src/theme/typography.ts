@@ -1,0 +1,120 @@
+// Figma Document Version: 5702432368
+
+import { Palette } from "@mui/material";
+import { TypographyOptions } from "@mui/material/styles/createTypography";
+
+const typography:
+  | TypographyOptions
+  | ((palette: Palette) => TypographyOptions) = {
+  fontFamily: "League Spartan, sans-serif",
+  h1: {
+    fontSize: 96,
+    fontFamily: "League Spartan, sans-serif",
+    paragraphIndent: 0,
+    paragraphSpacing: 0,
+    fontWeight: 500,
+    letterSpacing: "-1.5px",
+    lineHeight: "116.70000553131104%",
+  },
+  h2: {
+    fontSize: 60,
+    fontFamily: "League Spartan, sans-serif",
+    paragraphIndent: 0,
+    paragraphSpacing: 0,
+    fontWeight: 500,
+    letterSpacing: "-1px",
+    lineHeight: "120.00000476837158%",
+  },
+  h3: {
+    fontSize: 48,
+    fontFamily: "League Spartan, sans-serif",
+    paragraphIndent: 0,
+    paragraphSpacing: 0,
+    fontWeight: 500,
+    letterSpacing: "-0.5px",
+    lineHeight: "116.70000553131104%",
+  },
+  h4: {
+    fontSize: 34,
+    fontFamily: "League Spartan, sans-serif",
+    paragraphIndent: 0,
+    paragraphSpacing: 0,
+    fontWeight: 500,
+    letterSpacing: "0px",
+    lineHeight: "123.50000143051147%",
+  },
+  h5: {
+    fontSize: 24,
+    fontFamily: "League Spartan, sans-serif",
+    paragraphIndent: 0,
+    paragraphSpacing: 0,
+    fontWeight: 500,
+    letterSpacing: "0px",
+    lineHeight: "133.39999914169312%",
+  },
+  h6: {
+    fontSize: 20,
+    fontFamily: "League Spartan, sans-serif",
+    paragraphIndent: 0,
+    paragraphSpacing: 0,
+    fontWeight: 500,
+    letterSpacing: "0px",
+    lineHeight: "120.00000476837158%",
+  },
+  body1: {
+    fontSize: 16,
+    fontFamily: "League Spartan, sans-serif",
+    paragraphIndent: 0,
+    paragraphSpacing: 0,
+    fontWeight: 400,
+    letterSpacing: "0px",
+    lineHeight: "150%",
+  },
+  body2: {
+    fontSize: 14,
+    fontFamily: "League Spartan, sans-serif",
+    paragraphIndent: 0,
+    paragraphSpacing: 0,
+    fontWeight: 400,
+    letterSpacing: "0px",
+    lineHeight: "142.99999475479126%",
+  },
+  subtitle1: {
+    fontSize: 16,
+    fontFamily: "League Spartan, sans-serif",
+    paragraphIndent: 0,
+    paragraphSpacing: 0,
+    fontWeight: 500,
+    letterSpacing: "0px",
+    lineHeight: "150%",
+  },
+  subtitle2: {
+    fontSize: 14,
+    fontFamily: "League Spartan, sans-serif",
+    paragraphIndent: 0,
+    paragraphSpacing: 0,
+    fontWeight: 500,
+    letterSpacing: "0px",
+    lineHeight: "157.00000524520874%",
+  },
+  overline: {
+    fontSize: 12,
+    fontFamily: "League Spartan, sans-serif",
+    paragraphIndent: 0,
+    paragraphSpacing: 0,
+    fontWeight: 400,
+    letterSpacing: "1px",
+    lineHeight: "266.00000858306885%",
+  },
+  caption: {
+    fontSize: 12,
+    fontFamily: "League Spartan, sans-serif",
+    paragraphIndent: 0,
+    paragraphSpacing: 0,
+    fontWeight: 400,
+    letterSpacing: "0px",
+    lineHeight: "165.9999966621399%",
+  },
+};
+
+export default typography;
