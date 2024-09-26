@@ -56,13 +56,12 @@ const ProductComponent: React.FC = () => {
   };
 
   const handleWhatsAppClick = (product: Product) => {
-    const message = `Olá, estou interessado(a) no produto: ${product.name} (${product.category}). Gostaria de saber mais detalhes.`;
+    const message = `Olá, estou interessado(a) no produto: ${product.name} (${product.category}). Gostaria de saber mais detalhes. Veja a imagem aqui: ${product.image}`;
     const url = `https://api.whatsapp.com/send?phone=+5563992363562&text=${encodeURIComponent(
       message
     )}`;
     window.open(url, "_blank");
   };
-
   return (
     <Container id="produtos">
       <Typography

@@ -125,9 +125,10 @@ const Header = () => {
                 color: theme.palette.primary.main,
                 width: "40px",
                 boxShadow: "none",
+                backgroundColor: "#000",
               }}
             >
-              <MenuIcon />
+              <MenuIcon sx={{ backgroundColor: "#000" }} />
             </IconButton>
           )}
           {isMobile && (
@@ -137,6 +138,11 @@ const Header = () => {
               onClose={handleClose}
               MenuListProps={{
                 "aria-labelledby": "basic-button",
+              }}
+              PaperProps={{
+                style: {
+                  backgroundColor: "#000",
+                },
               }}
             >
               <MenuItem onClick={handleClose}>

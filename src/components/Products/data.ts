@@ -3,7 +3,7 @@ import Babydoll from "../../assets/baby-doll.webp";
 import Short from "../../assets/short.webp";
 import CuecaAdulto from "../../assets/cueca-adulto.webp";
 import CuecaInfantil from "../../assets/cueca-infantil.webp";
-import CalcinhaInfantil from "../../assets/infantil-calcinha.webp";
+import CalcinhaInfantil from "../../assets/calcinha-infantil.webp";
 import Conjunto from "../../assets/conjunto.webp";
 
 export interface Product {
@@ -15,7 +15,7 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    name: "Lingerie Set",
+    name: "Lingerie",
     category: "Lingeries",
     price: "R$ 129,90",
     image: Lingerie,
