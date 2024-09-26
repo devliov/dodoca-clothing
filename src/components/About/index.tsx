@@ -12,7 +12,7 @@ const AboutContainer = styled(Box)(({ theme }) => ({
   padding: theme.spacing(1),
   gap: theme.spacing(4),
   textAlign: "center",
-  backgroundColor: theme.palette.background.paper,
+  backgroundColor: "#303030",
   borderRadius: theme.shape.borderRadius,
 }));
 

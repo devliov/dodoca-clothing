@@ -20,7 +20,7 @@ const ProductContainer = styled(Box)(({ theme }) => ({
   justifyContent: "center",
   gap: theme.spacing(4),
   padding: theme.spacing(4),
-  backgroundColor: theme.palette.background.paper,
+  backgroundColor: "#303030",
   borderRadius: theme.shape.borderRadius,
 }));
 
@@ -30,7 +30,7 @@ const ProductBox = styled(Box)(({ theme }) => ({
   textAlign: "center",
   borderRadius: theme.shape.borderRadius,
   boxShadow: theme.shadows[2],
-  backgroundColor: "#f9f9f9",
+  backgroundColor: "#555555",
   cursor: "pointer",
 }));
 

@@ -36,7 +36,7 @@ const ScrollToTopButton = () => {
         color="primary"
         variant="extended"
         onClick={handleClick}
-        style={{ backgroundColor: `${theme.palette.primary.light}` }}
+        style={{ backgroundColor: "#E40071" }}
       >
         <KeyboardArrowUp />
         Topo

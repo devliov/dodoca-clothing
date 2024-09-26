@@ -13,12 +13,12 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useTheme } from "@mui/material/styles";
-import CompanyLogo from "../../assets/Logo-Oficial-Dodoca-Clothing.png";
+import CompanyLogo from "../../assets/Logo-dodoca.jpg";
 import ScrollToTopButton from "../Button-Scroll";
 import WhatsAppLink from "../Contact-Link";
 
 const HeaderContainer = styled(AppBar)(() => ({
-  backgroundColor: "#FDF7EC",
+  backgroundColor: "#000000",
   boxShadow: "none",
   width: "100%",
 }));
