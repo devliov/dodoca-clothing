@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Fab, Zoom } from "@mui/material";
 import { KeyboardArrowUp } from "@mui/icons-material";
 import { styled } from "@mui/system";
-import theme from "../../theme";
 
 const ScrollButton = styled(Fab)(({ theme }) => ({
   position: "fixed",
