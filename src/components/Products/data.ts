@@ -29,7 +29,7 @@ export const products: Product[] = [
   {
     name: "Shorts de Malha",
     category: "Shorts de Malha",
-    price: "R$ 49,90",
+    price: "R$ 29,90",
     image: Short,
   },
   {
