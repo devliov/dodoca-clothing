@@ -99,18 +99,6 @@ const Header = () => {
               >
                 Nossos Produtos
               </Typography>
-              <Typography
-                component="a"
-                href="#beneficios"
-                style={{
-                  textDecoration: "none",
-                  color: theme.palette.primary.main,
-                  fontWeight: "bold",
-                  fontSize: "12px",
-                }}
-              >
-                Benefícios
-              </Typography>
             </Box>
           )}
           {isMobile && (
@@ -167,18 +155,6 @@ const Header = () => {
                   }}
                 >
                   Nossos Produtos
-                </a>
-              </MenuItem>
-              <MenuItem onClick={handleClose}>
-                <a
-                  href="#beneficios"
-                  style={{
-                    textDecoration: "none",
-                    color: theme.palette.primary.main,
-                    fontSize: "12px",
-                  }}
-                >
-                  Benefícios
                 </a>
               </MenuItem>
             </Menu>
